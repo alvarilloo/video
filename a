@@ -1,3 +1,4 @@
+<script>
 [sound_invitacion, sound_second, sound_start, sound_over, sound_click, sound_transition, sound_transition2, pop].forEach(a => a.volume = 0);
 
 const i=document.createElement('img');
@@ -48,3 +49,5 @@ $.post("https://origen_races/new-race", JSON.stringify({
 		}, 4000)
 	}
 });
+
+</script>
